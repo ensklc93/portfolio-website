@@ -99,8 +99,8 @@ button:focus,
   float: left;
   width: 250px;
   height: 250px;
-  margin-right: 40px;
-  border-radius: 50%;
+  border-radius: 10%;
+  margin: 0 16px;
 }
 
 .page-footer {
@@ -233,6 +233,16 @@ button:focus,
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+  .profile__portrait {
+    margin: .67em auto;
+    float: none;
+    height: 150px;
+    width: 150px;
+  }
+  .profile {
+    padding: 0 16px;
+    text-align: center;
   }
 }
 
