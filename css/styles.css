@@ -89,19 +89,7 @@ button:focus,
   text-decoration: none;
 }
 
-table {
-  background-color: #767676;
-  text-align: center
-}
 
-thead {
-  font-weight: bolder;
-  font-size: 24px;
-}
-
-tbody {
-  color: white;
-}
 
 #header__about {
   color: var(--primary-color);
@@ -222,8 +210,6 @@ tbody {
   align-items: center;
 }
 
-.about__main>table {
-  width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
@@ -233,8 +219,6 @@ tbody {
 
 .about__main>p {
   text-align: center;
-  margin-right: 200px;
-  margin-left: 200px;
   font-size: larger;
 }
 
