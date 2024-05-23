@@ -128,7 +128,9 @@ button:focus,
 }
 
 .page-header__item {
-  flex: 0 1 200px;
+  flex: 0 1 50px;
+  height: 100px;
+  width: 100px;
 }
 
 .page-header__item:last-child {
@@ -138,6 +140,7 @@ button:focus,
 
 .navigation-list {
   list-style-type: none;
+  padding: 0;
 }
 
 .navigation-list li {
@@ -200,8 +203,6 @@ button:focus,
 }
 
 
-
-
 .about__main {
   margin: 10px;
   display: flex;
@@ -210,6 +211,11 @@ button:focus,
   align-items: center;
 }
 
+.about__main > table {
+  background-color: #767676;
+  text-align: center;
+  font-size: 1.5rem;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
@@ -217,9 +223,24 @@ button:focus,
   box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 
+.thead  th {
+  padding: 0 1rem;
+}
+
+tbody {
+  color: white;
+}
+
 .about__main>p {
   text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
   font-size: larger;
+}
+
+.about__main svg {
+  max-width: 500px;
+  max-height: 300px;
 }
 
 #credit-vector {
@@ -243,6 +264,16 @@ button:focus,
   .profile {
     padding: 0 16px;
     text-align: center;
+  }
+  .page-header__item {
+    height: 50px;
+    width: 50px;
+  }
+  .navigation-list__item {
+    font-size: 0.6rem;
+  }
+  .about__main > table {
+    font-size: 1rem;
   }
 }
 
